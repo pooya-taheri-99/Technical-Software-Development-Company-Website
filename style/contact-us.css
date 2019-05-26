@@ -20,7 +20,6 @@ button{
 
 
 
-
 /*class based element*/
 
 .h1-color{
@@ -28,21 +27,38 @@ button{
     
 }
 
+.form-group{
+    text-align: right;
+}
+
 .container{
+    top: 50px;
+    text-align: center;
     position: relative;
 }
-.btn-primary {
+.btn-default {
     background-color: #D6D4A0;
     color: #333333;
     font-size: 17px;
-    border:none;
+    width: 180px;
+    height: 40px;
+    margin: 30px;
 }
 .btn-primary:hover{
     background-color: #FCA311;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
 .btn-block{
     height: 50px;
+    margin: 5px;
 }
 
 

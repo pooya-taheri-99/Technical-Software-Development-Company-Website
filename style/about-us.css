@@ -1,0 +1,110 @@
+
+@font-face {
+  font-family: IRANSans;
+  src: url('../fonts/IRANSans.ttf');
+}
+
+/*style for tag names*/
+
+
+*{
+font-family: IRANSans;
+}
+
+  div#layout {
+    text-align: center;
+    z-index: 9998;
+    position: relative;
+  }
+  
+  div#container {
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+  }
+  
+  svg {
+    width: 100%;
+    height: 700px;
+  }
+  
+  .bar {
+    fill: #FED966;
+  }
+  
+  text {
+    font-size: 15px;
+    fill:#444444;
+  }
+  
+  path {
+    stroke: #000;
+  }
+  
+  line {
+    stroke: #444444;
+  }
+  
+  line#limit {
+    stroke: #FED966;
+    stroke-width: 3;
+    stroke-dasharray: 3 6;
+  }
+  
+  .grid path {
+    stroke-width: 1px;
+  }
+  
+  .grid .tick line {
+    stroke: #9FAAAE;
+    stroke-opacity: 0.5;
+  }
+  
+  text.divergence {
+    font-size: 12px;
+    fill: #2F4A6D;
+  }
+  
+  text.value {
+    font-size: 12px;
+  }
+  
+  text.title {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  text.label {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  text.source {
+    font-size: 10px;
+  }
+
+  #myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.3;
+    z-index: 9997;
+}
+
+.about-us-text{
+  background-color: rgb(160, 161, 221);
+  padding: 20px;
+  opacity: 0.9;
+  border-radius: 5px;
+  margin: 40px;
+}
+.photo{
+  border-radius: 95px;
+  margin: 30px;
+}
+
+.normal-text{
+  font-size: 23px;
+}
