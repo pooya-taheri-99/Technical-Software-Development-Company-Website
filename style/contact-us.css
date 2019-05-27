@@ -17,8 +17,14 @@ button{
       font-family: IRANSans;
 }
 
+ p{
+     color: #FFF;
+     font-size: 18px;
+ }
 
-
+ label{
+     color: #FFF;
+ }
 
 /*class based element*/
 
@@ -33,8 +39,11 @@ button{
 
 .container{
     top: 50px;
+    left: 50%;
+    right: 26%;
     text-align: center;
-    position: relative;
+    position: absolute;
+    width: 600px;
 }
 .btn-default {
     background-color: #D6D4A0;
@@ -44,8 +53,9 @@ button{
     height: 40px;
     margin: 30px;
 }
-.btn-primary:hover{
-    background-color: #FCA311;
+.btn-default:hover{
+    background-color:rgb(255, 64, 0);
+    color: #FFF;
 }
 
 a {
@@ -82,4 +92,9 @@ a:hover{
     margin-top: 80px; 
     width: 280px;
     height: 150px;
+}
+#bg{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
 }
